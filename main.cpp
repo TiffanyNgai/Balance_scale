@@ -32,7 +32,8 @@ void balance_scale() {
     int weight_given;
     
     //user input weight value + echoing
-    cout << "Input the weight you want to put on the balance ";
+    cout << "Weight types of the balance: 125 lb, 75 lb, 42 lb, 15 lb, and 1 lb\n";
+    cout << "Input the weight (in pounds) you want to put on the balance ";
     cin >> weight_given;
     cout << "The weight you want to put on the balance is "
          << weight_given
